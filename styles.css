@@ -1,0 +1,61 @@
+.body{
+    background-color: aquamarine;
+}
+
+.header{
+    background-color: white;
+    height: 150px;
+}
+
+.logo{
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.titulo{
+    float: left;
+    text-align: center;
+}
+
+.marca{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.boton{
+    height: 40px;
+    width: 80px;
+    margin-left: 50px;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
