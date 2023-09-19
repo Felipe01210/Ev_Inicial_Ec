@@ -48,10 +48,61 @@
     border-radius: 30px;
 }
 
+.botonForm{
+    height: 40px;
+    width: 20%;
+    margin-left: 40%;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
 .contenido{
     display: flex;
     align-items: center;
 }
+
+.contenidoForm{
+    display: block;
+}
+
+.formulario{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+input, select{
+    margin-bottom: 10px;
+}
+
+.set{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border-style: dashed;
+}
+
+.formdiv{
+    float:left;
+    width: 50%;
+    display: flex;
+}
+
+.opiniones{
+    width: 50%;
+    float: left;
+    display: block;
+    align-items: center;
+}
+
+.opinion{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .galeria{
     margin-left: 10%;
@@ -80,4 +131,8 @@
     height: 40%;
     margin-left: 30%;
     margin-top: 10%;
+}
+
+.error{
+    color: red;
 }
