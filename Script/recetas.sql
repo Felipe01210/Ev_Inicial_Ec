@@ -36,3 +36,15 @@ create table historial(
     constraint fk_his_cocinero foreign key (nombre) references cocinero(nombre),
     constraint fk_his_receta foreign key (titulo) references receta(titulo)
 )
+
+create table reseña(
+    nombre varchar(30),
+    receta varchar(100),
+    nota real,
+    fecha date,
+    descripcion varchar(500),
+
+    constraint pk_reseña primary key (nombre, receta, fecha),
+    constraint pk_reseña_cocinero foreign key (nombre) references cocinero (nombre),
+    constraint pk_reseña_receta foreign key (receta) references receta (titulo)
+)
